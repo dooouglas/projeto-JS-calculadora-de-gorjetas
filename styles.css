@@ -1,14 +1,35 @@
 html {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 9.4px;
     color: #4e4d4d;
   }
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 30s ease infinite;
+    height: 82vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
   
   main {
     max-width: 50rem;
     margin: 8.5rem auto;
     padding: 3rem 1.6rem 6rem 1.6rem;
-    background: linear-gradient(30deg, #3dc0c0, #5bceae);
+    background: linear-gradient(30deg, #3da1c0f8, #ffffffd0);
     border-radius: 4rem;
     box-shadow: 0 2px 2px lightgray;
   }
